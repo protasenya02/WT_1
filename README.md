@@ -1,2 +1,2 @@
 # WT_1
-Basics of html and cdd
+Basics of html and css
