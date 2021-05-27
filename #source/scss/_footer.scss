@@ -3,7 +3,7 @@
     padding-top: 65px;
     background-color: #f1f2c9;
     color: #000;
-    
+
     width: 100%;
     height: auto;
 }
@@ -47,14 +47,13 @@
     color: #000;
     text-decoration: underline;
     vertical-align: top;
-}
 
-.footer_link:hover {
-    text-decoration:none;
+    &:hover {
+    text-decoration: none;
     transition-property: text-decoration;
     transition-duration: 0.5s;
     transition-timing-function: ease-out;
-
+    }
 }
 
 .footer_col_3 {
@@ -85,10 +84,10 @@
 
 .social_icon {
     color: #333;
-}
 
-.social_icon:hover {
-    color: #eb605a;
+    &:hover {
+        color: #eb605a;
+    }
 }
 
 .footer_image {
@@ -105,14 +104,13 @@
     padding-bottom: 30px;
     font-size: 14px;
     font-weight: 400;
-    color: #333; 
+    color: #333;
     margin: 0;
 }
 
-
 /* medium devices, desktops */
 @media only screen and (max-width : 992px) {
-    
+
     /* footer */
     .footer {
         padding-top: 30px;
@@ -121,31 +119,31 @@
     .footer_col_1 {
         max-width: 300px;
         margin: 0 15px;
-    }    
-    
+    }
+
     .footer_logo {
         font-size: 30px;
     }
-    
+
     .footer_title_2 {
         font-size: 12px;
-        padding-bottom: 23px; 
+        padding-bottom: 23px;
     }
-    
+
     .social_text {
         font-size: 12px;
         padding-bottom: 23px;
     }
-    
+
     .footer_text {
         font-size: 12px;
     }
-    
+
     .footer_social {
         font-size: 15px;
         margin-bottom: 20px;
     }
-    
+
     .footer_image {
         margin-bottom: 20px;
         width: 250px;
@@ -153,16 +151,16 @@
         margin-right: 15px;
         padding-top: 0;
     }
-    
-     .footer_col_2 {
+
+    .footer_col_2 {
         display: none;
     }
-    
+
     .footer_col_3 {
         max-width: 250px;
-        margin: 0 15px; 
+        margin: 0 15px;
     }
-    
+
     .copyright {
         font-size: 12px;
         padding: 10px 15px 20px;
@@ -172,12 +170,10 @@
 
 /* small devices, tablets */
 @media only screen and (max-width : 768px) {
-    
     /* footer */
-     .footer_image, .footer_col_2 {
+    .footer_image, .footer_col_2 {
         display: none;
     }
-    
 }
 
 /* extra small devices, phones */
@@ -191,41 +187,41 @@
     .footer_col_1 {
         max-width: 40%;
         margin: 0 15px;
-    }    
-    
+    }
+
     .footer_logo {
         font-size: 25px;
     }
-    
+
     .footer_title_2 {
         font-size: 11px;
-        padding-bottom: 7px; 
+        padding-bottom: 7px;
     }
-    
+
     .social_text {
         font-size: 10px;
         padding-bottom: 10px;
     }
-    
+
     .footer_text {
         font-size: 10px;
         margin-bottom: 15px;
     }
-    
+
     .footer_social {
         font-size: 15px;
         margin-bottom: 20px;
     }
-    
+
     .footer_image, .footer_col_2 {
         display: none;
     }
-    
+
     .footer_col_3 {
         max-width: 200px;
-        margin: 0 15px; 
+        margin: 0 15px;
     }
-    
+
     .copyright {
         font-size: 12px;
         padding: 5px 15px 15px;
